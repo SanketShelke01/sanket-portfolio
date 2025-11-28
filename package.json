@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "prepare": "husky",
     "lint:fix": "eslint . --ext .js,.jsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
