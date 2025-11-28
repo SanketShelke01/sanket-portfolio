@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="mb-20 py-6">
+    <nav className="top-0 left-0 w-full z-50 py-6">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

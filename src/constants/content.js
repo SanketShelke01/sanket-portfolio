@@ -23,14 +23,12 @@ import dockerIcon from "/assets/icons/others/docker.svg";
 import postmanIcon from "/assets/icons/others/postman.png";
 
 
-import awsProfessionalBadge from "/assets/images/aws-professional-badge.png";
-import awsDeveloperBadge from "/assets/images/aws-developer-badge.png";
-import awsSolutionBadge from "/assets/images/aws-solutions-badge.png";
-import terraformBadge from "/assets/images/terraform-associate-badge.png";
 
-export const ABOUT_CONTENT = `Motivated Full Stack Developer and a BE student specialized in IT Engineering. With a solid background in web development. Explore my projects to see how I combine technical skills with creative problem-solving.
 
-`;
+
+
+
+export const ABOUT_CONTENT = `Motivated Full Stack Developer and Bachelor of Engineering student specializing in IT. Skilled in designing, developing, and deploying web and mobile applications, with hands-on experience in full stack development.Proficient in creating responsive, user-friendly interfaces.`;
 
 export const TECHNOLOGIES = {
   Frontend: [
@@ -135,11 +133,7 @@ export const PROJECTS = [
 
 export const CERTIFICATIONS = [
   {
-    title: "AWS Certified Solutions Architect – Professional",
-    issuer: "Amazon Web Services Training and Certification",
-    date: "April 2024",
-    link: "https://www.credly.com/badges/00c91b85-4948-4275-88c3-d143e0e888e7/public_url",
-    badge: awsProfessionalBadge,
+   
   },
 
 ];

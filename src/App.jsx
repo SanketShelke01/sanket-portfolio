@@ -16,7 +16,7 @@ export default function App() {
       {/* FIXED BACKGROUND PARTICLES */}
       <Particles
         className="fixed inset-0 w-full h-full -z-10"
-        particleColors={['#3828aeff']}
+        particleColors={['#06bdf5ff']}
         particleCount={200}
         particleSpread={10}
         speed={0.1}
