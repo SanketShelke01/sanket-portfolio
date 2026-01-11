@@ -16,17 +16,10 @@ import mongodbIcon from "/assets/icons/backend/mongodb.svg";
 import reactNativeIcon from "/assets/icons/mobile/react-native.svg";
 import androidStudioIcon from "/assets/icons/mobile/android-studio.svg";
 
-
 import gitIcon from "/assets/icons/others/git.svg";
 import githubIcon from "/assets/icons/others/github.svg";
 import dockerIcon from "/assets/icons/others/docker.svg";
 import postmanIcon from "/assets/icons/others/postman.png";
-
-
-
-
-
-
 
 export const ABOUT_CONTENT = `Motivated Full Stack Developer and Bachelor of Engineering student specializing in IT. Skilled in designing, developing, and deploying web and mobile applications, with hands-on experience in full stack development.Proficient in creating responsive, user-friendly interfaces.`;
 
@@ -51,7 +44,6 @@ export const TECHNOLOGIES = {
   Mobile: [
     { icon: reactNativeIcon, name: "React Native" },
     { icon: androidStudioIcon, name: "Android Studio" },
-    
   ],
   Others: [
     { icon: gitIcon, name: "Git" },
@@ -67,14 +59,22 @@ export const EXPERIENCES = [
     role: "Mobile Android App Development",
     company: " Mountreach Solution",
     description: `During this workshop, I gained hands-on experience in Android app development using Android Studio. I learned the fundamentals of building mobile applications and worked on practical exercises that strengthened my understanding of the Android development process..`,
-    technologies: ["Core Python", "Java", "Xml" ],
+    technologies: ["Core Python", "Java", "Xml"],
   },
   {
     year: "Feb 2025 - Nov 2025",
     role: "Full Stack Developer Trainee",
     company: "Seven Mentor",
     description: `Completed an intensive full stack development program covering frontend, backend, databases, APIs, and deployment. Gained hands-on experience building responsive web applications using HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. Worked on real-time projects, debugging, REST API development, and deploying applications to cloud platforms.`,
-    technologies: ["HTML", "CSS", "JavaScript", "React", "SQL", "Java", "Bootstrap"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "SQL",
+      "Java",
+      "Bootstrap",
+    ],
   },
 ];
 
@@ -99,7 +99,8 @@ export const EDUCATION = [
   },
   {
     institution: "Jawahar Madhyamik Vidyalaya, Chanda",
-    university: "Maharashtra State Board of Secondary and Higher Secondary Education",
+    university:
+      "Maharashtra State Board of Secondary and Higher Secondary Education",
     percentage: "84.80%",
     year: "2019",
     degree: "High School (10<sup>th</sup>)",
@@ -109,41 +110,33 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
-
   {
     title: " Mini Store Mobile Website",
     description:
       "Developed a responsive Mini Mobile Store Website designed for browsing and purchasing mobile phones. The website provides users with a clean layout, easy navigation, and product-focused design, ensuring a smooth online shopping experience.",
-    technologies: ["Html","Css", "JavaScript","Bootstrap","JSON"],
+    technologies: ["Html", "Css", "JavaScript", "Bootstrap", "JSON"],
     githubLink: "https://github.com/",
-    link:"",
-
+    link: "",
   },
 
   {
     title: " Detection of Apple Plant Diseases Using Leaf Images through CNN ",
     description:
       "The project “Detection of Apple Plant Diseases Using Leaf Images through CNN” aims to create an automated and intelligent system capable of identifying various diseases present on apple leaves by analyzing their images. This system integrates deep learning techniques with a web-based interface to provide farmers and agricultural stakeholders with a reliable, fast, and accurate disease detection tool.",
-    technologies: [ "JAVA", "JSP", "HTML", "CSS", "JavaScript","MySql" ],
+    technologies: ["JAVA", "JSP", "HTML", "CSS", "JavaScript", "MySql"],
     githubLink: "https://github.com/",
-    link:"",
+    link: "",
   },
-
 ];
 
-export const CERTIFICATIONS = [
-  {
-   
-  },
-
-];
+export const CERTIFICATIONS = [{}];
 
 export const CONTACT = {
   phoneNo: "+91 7741829872",
   email: "sanketshelke!49@gmail.com",
-  linkedin: "https://www.linkedin.com/in/sanket-shelke-aa6399254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  linkedin:
+    "https://www.linkedin.com/in/sanket-shelke-aa6399254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   github: "https://github.com/SanketShelke01",
   x: "https://x.com/",
-  instagram:
-    "https://www.instagram.com/___sanket.s?igsh=MXRsZjNmcnZneWthZw==",
+  instagram: "https://www.instagram.com/___sanket.s?igsh=MXRsZjNmcnZneWthZw==",
 };
