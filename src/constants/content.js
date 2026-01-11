@@ -82,7 +82,7 @@ export const EDUCATION = [
   {
     institution: "Dr.Vitthalrao Vikhe Patil College of Engineering, Ahmednagar",
     university: "Savitribai Phule Pune University",
-    percentage: "7.51 CGPA",
+    percentage: "7.60 CGPA",
     year: "2022-2025",
     degree: "Information Technology",
     location: "Ahmednagar, Maharashtra",
